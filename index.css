@@ -196,6 +196,7 @@ p {
   width: auto;
   height: auto;
 }
+/* IMGS in fullscreen */
 #fullpage {
   display: none;
   position: fixed;
@@ -207,5 +208,5 @@ p {
   background-size: contain;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
 }

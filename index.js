@@ -1,3 +1,4 @@
+// IMGS in fullscreen
 function getPics() {}
 const imgs = document.querySelectorAll("#imgs div img");
 const fullPage = document.querySelector("#fullpage");
