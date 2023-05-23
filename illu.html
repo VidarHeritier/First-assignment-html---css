@@ -15,7 +15,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <!-- Body -->
-  <body>
+  <body onload="getPics()">
     <!-- Navbar -->
     <div id="navbar">
       <h3>
@@ -34,7 +34,7 @@
     </div>
     <div class="about-me"></div>
     <!-- Pictures first row -->
-    <div id="illu-imgs">
+    <div id="imgs">
       <div id="illu-firstrow">
         <img
           id="first1"
@@ -72,5 +72,7 @@
         />
       </div>
     </div>
+    <div id="fullpage" onclick="this.style.display='none';"></div>
+    <script src="index.js"></script>
   </body>
 </html>

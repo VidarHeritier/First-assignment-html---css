@@ -15,7 +15,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <!-- Body -->
-  <body>
+  <body onload="getPics()">
     <!-- Navbar -->
     <div id="navbar">
       <h3>
@@ -34,8 +34,8 @@
     </div>
     <div class="about-me"></div>
     <!-- Pictures first row -->
-    <div id="photos">
-      <div id="photos-firstrow">
+    <div id="imgs">
+      <div id="photos-firstrow" class="photos-first">
         <img
           id="photo1"
           src="./images/foto/0fd559165169785.640293867f7a7.jpg"
@@ -53,7 +53,7 @@
         />
       </div>
       <!-- Pictures second row -->
-      <div id="photos-secondrow">
+      <div id="photos-secondrow" class="photos-second">
         <img
           id="photo2"
           src="./images/foto/5821df165169759.6402933a855d4.jpg"
@@ -71,5 +71,7 @@
         />
       </div>
     </div>
+    <div id="fullpage" onclick="this.style.display='none';"></div>
+    <script src="index.js"></script>
   </body>
 </html>
