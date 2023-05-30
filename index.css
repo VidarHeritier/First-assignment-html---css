@@ -3,12 +3,16 @@ body {
   border: none;
   margin: 0;
   text-size-adjust: 1rem;
-  background: linear-gradient(rgb(25, 25, 25), rgb(44, 44, 44));
+  background-image: url("/images/background-2.png"),
+    linear-gradient(rgb(25, 25, 25), rgb(44, 44, 44));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   width: 100vw;
   min-height: 100vh;
-
   font-weight: bolder;
 }
+
 #index-text {
   color: rgb(244, 245, 224);
   font-family: "Orbitron", sans-serif;
@@ -43,6 +47,7 @@ h3 {
   text-shadow: 2px 2px 20px whitesmoke;
   -webkit-filter: brightness(150%);
 }
+
 /* Logo */
 #logo {
   align-items: center;
@@ -200,7 +205,7 @@ p {
 #fullpage {
   display: none;
   position: fixed;
-  z-index: 9999;
+  z-index: 99;
   top: 0;
   left: 0;
   width: 100vw;
@@ -210,3 +215,47 @@ p {
   background-position: center center;
   background-color: rgba(0, 0, 0, 0.95);
 }
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: none;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: whitesmoke;
+  padding: 6% 6%;
+  margin-right: 100px;
+  text-shadow: 2px 2px 20px whitesmoke;
+  -webkit-filter: brightness(150%);
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ddvector1:hover {
+  margin: 0 200px;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+} */
