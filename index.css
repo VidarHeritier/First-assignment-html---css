@@ -22,6 +22,14 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+.end {
+  font-size: 2rem;
+  color: rgb(244, 245, 224);
+  text-shadow: 2px 2px 20px whitesmoke;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  margin-bottom: 100px;
+}
 /* Navbar */
 .navbar-follow {
   position: fixed;
@@ -68,8 +76,8 @@ h3 {
 .about-me {
   color: rgb(244, 245, 224);
   text-align: center;
-  padding: 30px 50px;
-  margin: 30px 50px;
+  padding: 50px 50px;
+  margin: 150px 50px 30px 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
 h4 {
@@ -109,11 +117,11 @@ p {
   width: 100%;
   text-shadow: 2px 2px 20px whitesmoke;
 }
-  .container {
+.container {
   position: relative;
   text-align: center;
 }
-}
+
 /* External links */
 .ext-logo {
   width: 50px;
@@ -143,7 +151,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 300px;
 }
 #fishing-img {
   max-width: 400px;
@@ -291,7 +299,7 @@ p {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 100px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 #photo6 {
   display: block;
@@ -381,7 +389,3 @@ p {
   background-size: cover;
   margin-top: 100px;
 }
-/* Change the background color of the dropdown button when the dropdown content is shown */
-/* .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-} */
