@@ -23,6 +23,13 @@ body {
   justify-content: space-around;
 }
 /* Navbar */
+.navbar-follow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+}
 #navbar {
   background: linear-gradient(rgb(25, 25, 25), rgb(50, 50, 50));
   color: rgb(244, 245, 224);
@@ -36,7 +43,6 @@ body {
 }
 h3 {
   padding: 0 4%;
-  position: relative;
   margin-top: 80px;
 }
 #nav-link {
@@ -71,6 +77,42 @@ h4 {
 }
 p {
   font-size: 0.9rem;
+}
+/* Image Section Headings */
+.landscapes-head {
+  font-size: 3rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-shadow: 2px 2px 20px whitesmoke;
+}
+.cityscapes-head {
+  font-size: 3rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-shadow: 2px 2px 20px whitesmoke;
+}
+.animals-head {
+  font-size: 3rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-shadow: 2px 2px 20px whitesmoke;
+}
+  .container {
+  position: relative;
+  text-align: center;
+}
 }
 /* External links */
 .ext-logo {
@@ -201,6 +243,63 @@ p {
   width: auto;
   height: auto;
 }
+/* Photography images, third row, landscapes */
+#photos-thirdrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+#photo3 {
+  display: block;
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+/* Photography images, fourth row, landscapes */
+#photos-fourthrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+#photo4 {
+  display: block;
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+/* Photography images, fifth row, animals */
+#photos-fifthrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+#photo5 {
+  display: block;
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+/* Photography images, sixth row, animals */
+#photos-sixthrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+#photo6 {
+  display: block;
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
 /* IMGS in fullscreen */
 #fullpage {
   display: none;
@@ -254,6 +353,33 @@ p {
 
 .ddvector1:hover {
   margin: 0 200px;
+}
+.parallax-photo0 {
+  background-image: url("https://cdn.myportfolio.com/95414602-2cfc-4db8-b0e5-8f8f0ab0f701/48550e78-c75a-463e-87fe-3bc827f46562_rw_1920.jpg?h=365224dbda278d3c78e6a530cdf91d5f");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 300px;
+}
+.parallax-photo1 {
+  background-image: url("https://cdn.myportfolio.com/95414602-2cfc-4db8-b0e5-8f8f0ab0f701/b9388102-3013-4429-9464-906f6ffc9a19.jpg?h=16e9d71774ee3db164b118d9a6ffd445");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.parallax-photo2 {
+  background-image: url("https://cdn.myportfolio.com/95414602-2cfc-4db8-b0e5-8f8f0ab0f701/bb8b8322-285c-4aec-a7d8-e65898fd259f.jpg?h=f05546a3b1a7d4258c5dfbdaebafcefc");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
 }
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /* .dropdown:hover .dropbtn {
