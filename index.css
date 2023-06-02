@@ -22,6 +22,14 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+img {
+  cursor: zoom-in;
+  transition: all 0.5s;
+}
+img:hover {
+  -webkit-filter: brightness(130%);
+  transform: scale(102%);
+}
 .end {
   font-size: 2rem;
   color: rgb(244, 245, 224);
@@ -71,13 +79,14 @@ h3 {
 }
 #logo:hover {
   -webkit-filter: brightness(150%);
+  cursor: pointer;
 }
 /* About body and text */
 .about-me {
   color: rgb(244, 245, 224);
   text-align: center;
-  padding: 30px 50px;
-  margin: 30px 50px;
+  padding: 50px 50px;
+  margin: 150px 50px 30px 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
 h4 {
@@ -117,11 +126,31 @@ p {
   width: 100%;
   text-shadow: 2px 2px 20px whitesmoke;
 }
-  .container {
+.space-head {
+  font-size: 3rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-shadow: 2px 2px 20px whitesmoke;
+}
+.placeholder-head {
+  font-size: 3rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-shadow: 2px 2px 20px whitesmoke;
+}
+.container {
   position: relative;
   text-align: center;
 }
-}
+
 /* External links */
 .ext-logo {
   width: 50px;
@@ -138,6 +167,8 @@ p {
 }
 #insta:hover {
   -webkit-filter: brightness(150%);
+  transform: scale(110%);
+  cursor: pointer;
 }
 #behance {
   margin-left: 60px;
@@ -145,35 +176,50 @@ p {
 }
 #behance:hover {
   -webkit-filter: brightness(150%);
+  transform: scale(110%);
+  cursor: pointer;
 }
 /* Landing page images and styles*/
 #front-img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 300px;
 }
+
 #fishing-img {
   max-width: 400px;
   border-bottom: 135px solid black;
   border-radius: 50%;
+  -webkit-transition: 0.5s;
 }
 #fishing-img:hover {
   -webkit-filter: brightness(150%);
+  transform: scale(102%);
+  box-shadow: 2px 2px 20px whitesmoke;
+  cursor: pointer;
 }
 #portal-img {
   max-width: 400px;
   border-radius: 50%;
+  -webkit-transition: 0.5s;
 }
 #portal-img:hover {
   -webkit-filter: brightness(150%);
+  transform: scale(102%);
+  box-shadow: 2px 2px 20px whitesmoke;
+  cursor: pointer;
 }
 #elvis-img {
   max-width: 400px;
   border-radius: 50%;
+  -webkit-transition: 0.5s;
 }
 #elvis-img:hover {
   -webkit-filter: brightness(150%);
+  transform: scale(102%);
+  box-shadow: 2px 2px 20px whitesmoke;
+  cursor: pointer;
 }
 /* Illustration images, first row */
 #illu-firstrow {
@@ -371,6 +417,7 @@ p {
   background-size: cover;
   margin-top: 300px;
 }
+
 .parallax-photo1 {
   background-image: url("https://cdn.myportfolio.com/95414602-2cfc-4db8-b0e5-8f8f0ab0f701/b9388102-3013-4429-9464-906f6ffc9a19.jpg?h=16e9d71774ee3db164b118d9a6ffd445");
   min-height: 600px;
@@ -389,7 +436,25 @@ p {
   background-size: cover;
   margin-top: 100px;
 }
-/* Change the background color of the dropdown button when the dropdown content is shown */
-/* .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-} */
+.parallax-illu0 {
+  background-image: url("https://cdn.myportfolio.com/95414602-2cfc-4db8-b0e5-8f8f0ab0f701/133111f1-cea2-4a43-be8d-d622903b234e.jpg?h=2d489f00e6128771b5d23e80b89b18f8");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 300px;
+}
+
+.parallax-vector0 {
+  background-image: url("https://cdn.myportfolio.com/95414602-2cfc-4db8-b0e5-8f8f0ab0f701/1c7ac408-28be-4fae-848c-397d4aae9fc6.jpg?h=d6c60cdb12481cd5c0abcc730cd31e06");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 300px;
+}
+.body-noscroll {
+  overflow: hidden;
+}
