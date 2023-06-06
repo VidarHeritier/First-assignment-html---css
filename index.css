@@ -35,8 +35,10 @@ img:hover {
   color: rgb(244, 245, 224);
   text-shadow: 2px 2px 20px whitesmoke;
   font-family: "Orbitron", sans-serif;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 100px;
+  text-decoration: none;
 }
 /* Navbar */
 .navbar-follow {
@@ -457,4 +459,27 @@ p {
 }
 .body-noscroll {
   overflow: hidden;
+}
+/* TEEEEEEEEEEEEEST */
+.css-test {
+  background: rgb(80, 101, 121); 
+}
+.css-test:hover {
+  transform: scale(0);
+transition: 10s;
+}
+.test-box {
+
+}
+.first-letter {
+  font-size: 5rem;
+  text-align: start;
+}
+.second-letter {
+  font-size: 8rem;
+text-align: center;
+}
+.third-letter {
+  font-size: 3rem;
+text-align: end;
 }
