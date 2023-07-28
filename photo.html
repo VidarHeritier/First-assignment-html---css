@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Art by Vidar</title>
+    <title>Photographies</title>
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script src="index.js" defer></script>
   </head>
   <!-- Body -->
   <body onload="getPics()">
@@ -66,6 +67,7 @@
       <div id="photos-firstrow" class="photos-first">
         <img
           id="photo1"
+          class="gallery"
           src="./images/foto/0fd559165169785.640293867f7a7.jpg"
           alt=""
         />
@@ -181,8 +183,7 @@
         />
       </div>
     </div>
-    <div class="end">Fin</div>
+    <a href="fin.html" target="_self" class="end">Fin</a>
     <div id="fullpage" onclick="this.style.display='none';"></div>
-    <script src="index.js"></script>
   </body>
 </html>
