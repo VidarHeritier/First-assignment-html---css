@@ -12,4 +12,4 @@ imgs.forEach((img) => {
 });
 console.log(test);
 
-// Dropdown
+// Hamburger

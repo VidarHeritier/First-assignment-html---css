@@ -25,6 +25,7 @@
             >Photography</a
           >
           <div class="dropdown-content open">
+            <p class="arrow">⏎</p>
             <a href="/photo.html#cityscape-section">Cityscapes</a>
             <a href="/photo.html#landscape-section">Landscapes</a>
             <a href="/photo.html#animal-section">Animals</a>
@@ -35,7 +36,8 @@
         <div class="dropdown">
           <a href="illu.html" target="_self" id="nav-link">Illustrations</a>
           <div class="dropdown-content">
-            <a href="#">Space</a>
+            <p class="arrow">⏎</p>
+            <a href="/illu.html#space-section">Space</a>
             <a href="#">Paintings</a>
             <a href="#">Miscellaneous</a>
           </div>
@@ -48,50 +50,57 @@
         <div class="dropdown">
           <a href="vector.html" target="_self" id="nav-link">Vector graphic</a>
           <div class="dropdown-content">
-            <a href="#">Animals</a>
+            <p class="arrow">⏎</p>
+            <a href="/vector.html#placeholder-section">Animals</a>
             <a href="#">Artists</a>
             <a href="#">Logos</a>
           </div>
         </div>
       </h3>
       <h3>
-        <a href="about.html" target="_self" id="nav-link">About me</a>
+        <a href="about.html" target="_self" id="nav-link" class="dropdown">About me</a>
       </h3>
+      <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu__box">
+      <li><a class="menu__item" href="#">Главная</a></li>
+			<li><a class="menu__item" href="#">Проекты</a></li>
+			<li><a class="menu__item" href="#">Команда</a></li>
+			<li><a class="menu__item" href="#">Блог</a></li>
+			<li><a class="menu__item" href="#">Контакты</a></li>
+    </ul>
+  </div>
     </div>
     <!-- Picture row -->
     <div id="front-img">
-      <a href="photo.html" target="_self"
+      <div><a href="photo.html" target="_self"
         ><img
           id="fishing-img"
           src="./images/Welcome/4f95c9165169759.6402933abae61.jpg"
           alt="boy sitting on a stone fishing"
-      /></a>
-
-      <a href="illu.html" target="_self"
+      /></a><a href="photo.html" target="_self" id="nav-link"
+        ><p id="index-text">Photography</p></a
+      ></div>
+      <div><a href="illu.html" target="_self"
         ><img
           id="portal-img"
           src="./images/Welcome/f2d7b5165168441.64612ae0899c5.jpg"
           alt="person falling in front of gigantic portal"
-      /></a>
-
-      <a href="vector.html" target="_self"
+      /></a><a href="illu.html" target="_self" id="nav-link"
+        ><p id="index-text">Illustrations</p></a
+      ></div> 
+      <div><a href="vector.html" target="_self"
         ><img
           id="elvis-img"
           src="./images/Welcome/88dcd1165169735.64491f128481e.jpg"
           alt="vectorised elvis head singing"
-      /></a>
+      /></a><a href="vector.html" target="_self" id="nav-link"
+        ><p id="index-text">Vectors</p></a</div>
     </div>
-    <!-- Text row -->
-    <div id="text-align">
-      <a href="photo.html" target="_self" id="nav-link"
-        ><p id="index-text">Photography</p></a
-      >
-      <a href="illu.html" target="_self" id="nav-link"
-        ><p id="index-text">Illustrations</p></a
-      >
-      <a href="vector.html" target="_self" id="nav-link"
-        ><p id="index-text">Vectors</p></a
-      >
-    </div>
+     
   </body>
 </html>
