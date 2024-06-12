@@ -302,9 +302,9 @@ p {
 
   margin-top: 20vh;
 }
-.body-noscroll {
+/* .body-noscroll {
   overflow: hidden;
-}
+} */
 .hamburger-menu {
   visibility: collapse;
   width: 0;
