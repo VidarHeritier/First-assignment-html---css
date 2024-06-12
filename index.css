@@ -149,6 +149,7 @@ p {
   justify-content: center;
   gap: 5vw;
   width: 90vw;
+  position: fixed;
   margin-left: 7vw;
   margin-top: 35vh;
 }
