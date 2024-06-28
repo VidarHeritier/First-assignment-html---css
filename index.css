@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   text-size-adjust: 1rem;
-  background-image: url("https://vidarheritier.github.io/First-assignment-html---css/images/background-2.png"),
+  background-image: url("./images/background-2.png"),
     linear-gradient(rgb(25, 25, 25), rgb(44, 44, 44));
   background-repeat: no-repeat;
   background-position: center center;
